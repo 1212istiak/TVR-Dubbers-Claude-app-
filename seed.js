@@ -7,7 +7,7 @@ const { db, initSchema } = require('../db/client');
 // than guess at a real credential, this reads the real password from an env
 // var so nothing made-up ever becomes your actual login. If you don't set
 // one, a placeholder is used and printed loudly below — change it immediately.
-const ADMIN_PASSWORD = process.env.ADMIN_INITIAL_PASSWORD || 'rocky@2025-CHANGE-ME';
+const ADMIN_PASSWORD = process.env.ADMIN_INITIAL_PASSWORD || 'rocky@17';
 
 const DEFAULT_SETTINGS = {
   website_title: 'TVR Dubbers',
